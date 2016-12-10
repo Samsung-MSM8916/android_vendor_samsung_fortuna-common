@@ -6,11 +6,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	$(LOCAL_PATH)/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so
 	
-# Sensors
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
-	$(LOCAL_PATH)/lib/libk303c.so:system/lib/libk303c.so
-	
 # FM Radio
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
