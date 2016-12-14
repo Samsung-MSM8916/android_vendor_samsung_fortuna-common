@@ -1,4 +1,5 @@
 LOCAL_PATH := vendor/samsung/fortunaxx-common/proprietary
+LOCAL_PATH_ADRENO := vendor/samsung/fortunaxx-common/proprietary_adreno
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
@@ -27,34 +28,45 @@ PRODUCT_COPY_FILES += \
 
 # Graphics
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
-	$(LOCAL_PATH)/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
-	$(LOCAL_PATH)/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
-	$(LOCAL_PATH)/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-	$(LOCAL_PATH)/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-	$(LOCAL_PATH)/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
-	$(LOCAL_PATH)/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
-	$(LOCAL_PATH)/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
-	$(LOCAL_PATH)/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
-	$(LOCAL_PATH)/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-	$(LOCAL_PATH)/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-	$(LOCAL_PATH)/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-	$(LOCAL_PATH)/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-	$(LOCAL_PATH)/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
-	$(LOCAL_PATH)/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-	$(LOCAL_PATH)/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
-	$(LOCAL_PATH)/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-	$(LOCAL_PATH)/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-	$(LOCAL_PATH)/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-	$(LOCAL_PATH)/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-	$(LOCAL_PATH)/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-	$(LOCAL_PATH)/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-	$(LOCAL_PATH)/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-	$(LOCAL_PATH)/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
-	$(LOCAL_PATH)/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-	$(LOCAL_PATH)/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
-	$(LOCAL_PATH)/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-	$(LOCAL_PATH)/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw
+	$(LOCAL_PATH_ADRENO)/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/egl/libESXEGL_adreno.so:system/vendor/lib/egl/libESXEGL_adreno.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/egl/libESXGLESv1_CM_adreno.so:system/vendor/lib/egl/libESXGLESv1_CM_adreno.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/egl/libESXGLESv2_adreno.so:system/vendor/lib/egl/libESXGLESv2_adreno.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/egl/libRBEGL_adreno.so:system/vendor/lib/egl/libRBEGL_adreno.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+	$(LOCAL_PATH_ADRENO)/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+	$(LOCAL_PATH_ADRENO)/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+	$(LOCAL_PATH_ADRENO)/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+	$(LOCAL_PATH_ADRENO)/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+	$(LOCAL_PATH_ADRENO)/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+	$(LOCAL_PATH_ADRENO)/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
+	$(LOCAL_PATH_ADRENO)/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
+	$(LOCAL_PATH_ADRENO)/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
+	$(LOCAL_PATH_ADRENO)/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
+	$(LOCAL_PATH_ADRENO)/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
+	$(LOCAL_PATH_ADRENO)/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+	$(LOCAL_PATH_ADRENO)/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw
 
 # Qualcomm framework
 PRODUCT_COPY_FILES += \
