@@ -68,13 +68,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
 	$(LOCAL_PATH)/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
 	$(LOCAL_PATH)/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-	$(LOCAL_PATH)/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
-	$(LOCAL_PATH)/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
-	$(LOCAL_PATH)/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
-	$(LOCAL_PATH)/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
-	$(LOCAL_PATH)/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
-	$(LOCAL_PATH)/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
-	$(LOCAL_PATH)/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so
+	$(LOCAL_PATH)/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so
 
 # Thermal
 PRODUCT_COPY_FILES += \
