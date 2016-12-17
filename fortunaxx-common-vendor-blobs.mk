@@ -43,7 +43,11 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH_GPS)/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
 	$(LOCAL_PATH_GPS)/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
 	$(LOCAL_PATH_GPS)/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so
+	$(LOCAL_PATH_GPS)/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+	$(LOCAL_PATH_GPS)/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
+	$(LOCAL_PATH_GPS)/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+	$(LOCAL_PATH_GPS)/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+	$(LOCAL_PATH_GPS)/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so
 
 # Graphics
 PRODUCT_COPY_FILES += \
