@@ -15,7 +15,7 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(BOARD_VENDOR),samsung)
-ifneq ($(filter fortuna3g fortunave3g, $(TARGET_DEVICE)),)
+ifneq ($(filter fortuna3g fortunave3g fortunafz, $(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
