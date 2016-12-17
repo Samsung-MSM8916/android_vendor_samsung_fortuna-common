@@ -4,8 +4,13 @@ DEVICE_PACKAGE_OVERLAYS := vendor/samsung/fortunaxx-common/overlay
 PRODUCT_PACKAGES += \
     libtime_genoff\
     TimeService \
-	libmm-abl \
-	libHevcSwDecoder
+    libmm-abl \
+    libHevcSwDecoder
+
+PRODUCT_PACKAGES += \
+    libloc_api_v02 \
+    libloc_ds_api \
+    com.qualcomm.location
 
 # Include non-open-source files
 $(call inherit-product, vendor/samsung/fortunaxx-common/fortunaxx-common-vendor-blobs.mk)
