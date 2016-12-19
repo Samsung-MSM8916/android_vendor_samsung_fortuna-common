@@ -7,10 +7,5 @@ PRODUCT_PACKAGES += \
     libmm-abl \
     libHevcSwDecoder
 
-PRODUCT_PACKAGES += \
-    libloc_api_v02 \
-    libloc_ds_api \
-    com.qualcomm.location
-
 # Include non-open-source files
 $(call inherit-product, vendor/samsung/fortunaxx-common/fortunaxx-common-vendor-blobs.mk)
