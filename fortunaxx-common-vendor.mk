@@ -2,7 +2,7 @@
 DEVICE_PACKAGE_OVERLAYS := vendor/samsung/fortunaxx-common/overlay
 
 PRODUCT_PACKAGES += \
-    libtime_genoff\
+    libtime_genoff \
     TimeService \
     libmm-abl \
     libHevcSwDecoder
