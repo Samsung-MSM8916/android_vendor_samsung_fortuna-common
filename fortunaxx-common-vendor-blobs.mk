@@ -1,6 +1,5 @@
 LOCAL_PATH := vendor/samsung/fortunaxx-common/proprietary
 LOCAL_PATH_ADRENO := vendor/samsung/fortunaxx-common/proprietary_adreno
-LOCAL_PATH_GPS := vendor/samsung/fortunaxx-common/proprietary_gps
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
