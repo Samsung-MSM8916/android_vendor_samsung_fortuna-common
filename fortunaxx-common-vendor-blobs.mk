@@ -18,8 +18,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/bin/irsc_util:system/bin/irsc_util \
 	$(LOCAL_PATH_GPS)/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
 	$(LOCAL_PATH_GPS)/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-	$(LOCAL_PATH_GPS)/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
-	$(LOCAL_PATH_GPS)/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
+	$(LOCAL_PATH_GPS)/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk-2.jar \
+	$(LOCAL_PATH_GPS)/framework/qti-telephony-common.jar:system/framework/qti-telephony-common-2.jar \
 	$(LOCAL_PATH_GPS)/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
 	$(LOCAL_PATH_GPS)/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
 	$(LOCAL_PATH_GPS)/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
