@@ -16,36 +16,16 @@ PRODUCT_COPY_FILES += \
 # GPS
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/bin/irsc_util:system/bin/irsc_util \
-	$(LOCAL_PATH_GPS)/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
-	$(LOCAL_PATH_GPS)/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-	$(LOCAL_PATH_GPS)/framework/com.qti.location.sdk-2.jar:system/framework/com.qti.location.sdk-2.jar \
-	$(LOCAL_PATH_GPS)/framework/qti-telephony-common-2.jar:system/framework/qti-telephony-common-2.jar \
-	$(LOCAL_PATH_GPS)/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
-	$(LOCAL_PATH_GPS)/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so
-
-# GPS
-#PRODUCT_COPY_FILES += \
-#	$(LOCAL_PATH)/bin/irsc_util:system/bin/irsc_util \
-#	$(LOCAL_PATH)/bin/loc_launcher:system/bin/loc_launcher \
-#	$(LOCAL_PATH)/lib/libgps.utils.so:system/lib/libgps.utils.so \
-#	$(LOCAL_PATH)/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-#	$(LOCAL_PATH)/lib/libloc_core.so:system/lib/libloc_core.so \
-#	$(LOCAL_PATH)/lib/libloc_eng.so:system/lib/libloc_eng.so \
-#	$(LOCAL_PATH)/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-#	$(LOCAL_PATH)/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-#	$(LOCAL_PATH)/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-#	$(LOCAL_PATH)/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-#	$(LOCAL_PATH)/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so
+	$(LOCAL_PATH)/bin/loc_launcher:system/bin/loc_launcher \
+	$(LOCAL_PATH)/lib/libgps.utils.so:system/lib/libgps.utils.so \
+	$(LOCAL_PATH)/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+	$(LOCAL_PATH)/lib/libloc_core.so:system/lib/libloc_core.so \
+	$(LOCAL_PATH)/lib/libloc_eng.so:system/lib/libloc_eng.so \
+	$(LOCAL_PATH)/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+	$(LOCAL_PATH)/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+	$(LOCAL_PATH)/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+	$(LOCAL_PATH)/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+	$(LOCAL_PATH)/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so
 
 # Graphics
 PRODUCT_COPY_FILES += \
