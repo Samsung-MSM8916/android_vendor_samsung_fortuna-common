@@ -178,7 +178,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/bin/netmgrd:system/bin/netmgrd \
 	$(LOCAL_PATH)/bin/qmuxd:system/bin/qmuxd \
 	$(LOCAL_PATH)/bin/radish:system/bin/radish \
-	$(LOCAL_PATH)/bin/rfs_access:system/bin/rfs_access \
 	$(LOCAL_PATH)/bin/rmt_storage:system/bin/rmt_storage \
 	$(LOCAL_PATH)/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
 	$(LOCAL_PATH)/lib/libcordon.so:system/lib/libcordon.so \
