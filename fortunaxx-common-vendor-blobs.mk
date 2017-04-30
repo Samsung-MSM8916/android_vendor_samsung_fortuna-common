@@ -1,6 +1,7 @@
 LOCAL_PATH := vendor/samsung/fortunaxx-common/proprietary
 LOCAL_PATH_ADRENO := vendor/samsung/fortunaxx-common/proprietary_adreno
-LOCAL_PATH_GPS := vendor/samsung/fortunaxx-common/proprietary_gps
+LOCAL_PATH_APTX := vendor/samsung/fortunaxx-common/proprietary_aptX
+#LOCAL_PATH_GPS := vendor/samsung/fortunaxx-common/proprietary_gps
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
@@ -122,6 +123,9 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
 	
 # Audio
+#$(LOCAL_PATH)/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+#$(LOCAL_PATH)/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
+#$(LOCAL_PATH)/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
 	$(LOCAL_PATH)/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
@@ -145,16 +149,16 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
 	$(LOCAL_PATH)/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
 	$(LOCAL_PATH)/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
-	$(LOCAL_PATH)/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
-	$(LOCAL_PATH)/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-	$(LOCAL_PATH)/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
 	$(LOCAL_PATH)/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
 	$(LOCAL_PATH)/etc/General_cal.acdb:system/etc/General_cal.acdb \
 	$(LOCAL_PATH)/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
 	$(LOCAL_PATH)/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
 	$(LOCAL_PATH)/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
 	$(LOCAL_PATH)/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
-	$(LOCAL_PATH)/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb
+	$(LOCAL_PATH)/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+	$(LOCAL_PATH_APTX)/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
+	$(LOCAL_PATH_APTX)/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
+	$(LOCAL_PATH_APTX)/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so
 	
 # DRM
 PRODUCT_COPY_FILES += \
