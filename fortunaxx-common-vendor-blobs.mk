@@ -9,7 +9,8 @@ PRODUCT_COPY_FILES += \
 # Sensors
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
-	$(LOCAL_PATH)/lib/libk303c.so:system/lib/libk303c.so
+	$(LOCAL_PATH)/lib/libk303c.so:system/lib/libk303c.so \
+	$(LOCAL_PATH)/etc/calib_SI_matrix_data_file.dat:system/etc/calib_SI_matrix_data_file.dat
 	
 # FM Radio
 PRODUCT_COPY_FILES += \
