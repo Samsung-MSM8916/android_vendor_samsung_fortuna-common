@@ -2,6 +2,11 @@
 DEVICE_PACKAGE_OVERLAYS := vendor/samsung/fortunaxx-common/overlay
 
 PRODUCT_PACKAGES += \
+    libloc_api_v02 \
+    libloc_ds_api \
+    com.qualcomm.location
+
+PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
     libmm-abl \
