@@ -16,7 +16,7 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/bin/irsc_util:system/bin/irsc_util \
+	$(LOCAL_PATH_GPS)/bin/irsc_util:system/bin/irsc_util \
 	$(LOCAL_PATH_GPS)/bin/loc_launcher:system/bin/loc_launcher \
 	$(LOCAL_PATH_GPS)/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
 	$(LOCAL_PATH_GPS)/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
