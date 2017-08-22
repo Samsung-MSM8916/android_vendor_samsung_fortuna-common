@@ -144,7 +144,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/libSamsungPreProcess.so:system/lib/libSamsungPreProcess.so \
 	$(LOCAL_PATH)/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
 	$(LOCAL_PATH)/lib/lib_SamsungRec_V04012.so:system/lib/lib_SamsungRec_V04012.so \
-	$(LOCAL_PATH)/lib/libaudioroute.so:system/lib/libaudioroute.so \
 	$(LOCAL_PATH)/lib/libaudiosa.so:system/lib/libaudiosa.so \
 	$(LOCAL_PATH)/lib/lib_SA_GoogleFX_ver124b.so:system/lib/lib_SA_GoogleFX_ver124b.so \
 	$(LOCAL_PATH)/lib/lib_SoundAlive_play_ver125e.so:system/lib/lib_SoundAlive_play_ver125e.so \
