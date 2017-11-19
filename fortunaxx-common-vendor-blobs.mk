@@ -1,5 +1,5 @@
 LOCAL_PATH := vendor/samsung/fortunaxx-common/proprietary
-LOCAL_PATH_ADRENO := vendor/samsung/fortunaxx-common/proprietary_adreno
+LOCAL_PATH_ADRENO := vendor/samsung/fortunaxx-common/proprietary_adreno_n
 LOCAL_PATH_APTX := vendor/samsung/fortunaxx-common/proprietary_aptX
 LOCAL_PATH_GPS := vendor/samsung/fortunaxx-common/proprietary_gps
 
@@ -68,13 +68,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH_ADRENO)/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
 	$(LOCAL_PATH_ADRENO)/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
 	$(LOCAL_PATH_ADRENO)/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
-	$(LOCAL_PATH_ADRENO)/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-	$(LOCAL_PATH_ADRENO)/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-	$(LOCAL_PATH_ADRENO)/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+	$(LOCAL_PATH_ADRENO)/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
 	$(LOCAL_PATH_ADRENO)/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
 	$(LOCAL_PATH_ADRENO)/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-	$(LOCAL_PATH_ADRENO)/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-	$(LOCAL_PATH_ADRENO)/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
 	$(LOCAL_PATH_ADRENO)/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
 	$(LOCAL_PATH_ADRENO)/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
 	$(LOCAL_PATH_ADRENO)/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
