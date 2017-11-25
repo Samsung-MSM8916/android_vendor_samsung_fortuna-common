@@ -1,3 +1,17 @@
+# Copyright (C) 2017 The LineageOS Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 LOCAL_PATH := vendor/samsung/fortunaxx-common/proprietary
 LOCAL_PATH_ADRENO := vendor/samsung/fortunaxx-common/proprietary_adreno_n
 LOCAL_PATH_APTX := vendor/samsung/fortunaxx-common/proprietary_aptX
@@ -8,7 +22,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/bin/btnvtool:system/bin/btnvtool \
 	$(LOCAL_PATH)/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	$(LOCAL_PATH)/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so
-	
+
 # FM Radio
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
@@ -118,7 +132,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
 	$(LOCAL_PATH)/lib/libjpega.so:system/lib/libjpega.so \
 	$(LOCAL_PATH)/lib/libexifa.so:system/lib/libexifa.so
-	
+
 # Media
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
@@ -129,7 +143,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
 	$(LOCAL_PATH)/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
 	$(LOCAL_PATH)/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
-	
+
 # Audio
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
@@ -167,7 +181,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH_APTX)/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
 	$(LOCAL_PATH_APTX)/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
 	$(LOCAL_PATH_APTX)/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so
-	
+
 # DRM
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/bin/qseecomd:system/bin/qseecomd \
@@ -186,7 +200,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
 	$(LOCAL_PATH)/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
 	$(LOCAL_PATH)/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so
-	
+
 # Radio
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/bin/wlandutservice:system/bin/wlandutservice \
@@ -220,4 +234,3 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
 	$(LOCAL_PATH)/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
 	$(LOCAL_PATH)/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so
-	
