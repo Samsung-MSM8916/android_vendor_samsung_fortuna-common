@@ -233,4 +233,5 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/libhdcp2.so:system/lib/libhdcp2.so \
 	$(LOCAL_PATH)/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
 	$(LOCAL_PATH)/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-	$(LOCAL_PATH)/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so
+	$(LOCAL_PATH)/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
+	$(LOCAL_PATH)/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so
